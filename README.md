@@ -89,9 +89,15 @@ git clone https://github.com/PeterPan118/falsify-first.git ~/.workbuddy/skills/f
 
 单独读也能用。`SKILL.md` 是一篇完整的判据文档，不依赖任何运行时。
 
-## 相关
+## 同一作者的另外两个仓库
 
-同一作者的其他技能：[xiaohongshu-note-fetch](https://github.com/PeterPan118/xiaohongshu-note-fetch)、[content-fetchers](https://github.com/PeterPan118/content-fetchers)。
+| 仓库 | 做什么 | 依赖 |
+|---|---|---|
+| **falsify-first**（本仓库） | 策略证伪判据，把回测想法在花钱之前否掉 | 纯 Markdown，什么也不用装 |
+| [xiaohongshu-note-fetch](https://github.com/PeterPan118/xiaohongshu-note-fetch) | 小红书单条笔记：正文、原图、视频关键帧、评论区 | Python + curl，评论需本机 Chrome |
+| [content-fetchers](https://github.com/PeterPan118/content-fetchers) | 微博与公众号的单条正文提取 | Python，纯标准库 |
+
+三个也都在 WorkBuddy 技能市场发布，搜名字即可安装；GitHub 这边是源码和完整文档。
 
 ## 许可
 
